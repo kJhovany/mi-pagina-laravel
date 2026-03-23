@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Web Animada</title>
+    <title>Pagina web</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @keyframes gradient {
@@ -20,22 +20,23 @@
 </head>
 <body class="animate-gradient flex items-center justify-center h-screen m-0">
 
+
     <div class="text-center bg-white/80 backdrop-blur-md p-12 rounded-2xl shadow-2xl border border-white/20 transform hover:scale-105 transition-transform duration-300">
-        <marquee><h1 class="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500 mb-4">
+        <h1 class="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500 mb-4">
             ¡BUENAAAAAAS!
-        </h1></marquee>
+        </h1>
         
         <p class="text-gray-700 text-xl font-medium mb-8">
-            Esta es mi página de Laravel con fondo animado.
+            Esta es mi página de Laravel
         </p>
 
         <div class="flex flex-col gap-4 items-center">
             <a href="https://github.com/kJhovany" target="_blank" rel="noopener noreferrer"
                class="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-full shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:-translate-y-1">
-               Ver el git hub de kevin Jhovany
+               Ver el git-hub de kevin Jhovany
             </a>
             
-            <span class="text-sm text-gray-500 italic">Desplegado con éxito en Railway 🚀</span>
+            <span class="text-sm text-gray-500 italic">Desplegado con Railway </span>
         </div>
     </div>
 
